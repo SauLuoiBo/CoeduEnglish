@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styled from "styled-components";
+import * as Section from "../Section";
 
 export default function Home() {
   return (
@@ -11,7 +12,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <H1>sdasdadad</H1>
+        <Section.Header />
+        <Section.HomePage />
+        <Section.Teacher />
       </main>
     </>
   );
