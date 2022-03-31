@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Container>
-        <H1>sdasdadad</H1>
+        <p>sdasdadad</p>
       </Container>
     </>
   );
@@ -20,6 +20,7 @@ export default function Home() {
 const H1 = styled.h3`
   color: red;
 `;
+
 
 const Container = styled.main`
   background: linear-gradient(
